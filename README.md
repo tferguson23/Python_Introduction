@@ -10,6 +10,10 @@ Coding is an interatve process: Code, test, debug.
 
 ## Glossary
 Functions: Identified by a close and open parentheses ()\
-Arguments: Located within the function; what you want the output to be.\
+Arguments: Located within the function- what you want the output to be.\
 Variable: something that varies or changes.\
-Assignment Operator: Assigns a <ins>name</ins> to a _variable._
+Assignment Operator: Assigns a <ins>name</ins> to a _variable._ \
+CamelCase: Starting the assignment of a variable with a lowercase letter and the second word with an uppercase letter, sometimes distringued with an underscore_. \
+Case Sensitive: Python keywords are eclcuded from value assignment. \
+
+## I. Strings
