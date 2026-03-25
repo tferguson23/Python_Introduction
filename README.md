@@ -21,16 +21,16 @@ Coding is an interatve process: Code, test, debug.
 
 
 ## Loops
-Control structures that loops back to repeat a block of codes \
+Control structures that loops back to repeat a block of codes
 
 
 ## Functions
 Designed to be reusable code, performs only one task \
-Types of functions: \
+Types of functions:
 1. Built-in functions: abs(), print(), float(), tuple(), list() \
 2. User defined functions
-Parts of a function: \
-+ Definition
+Parts of a function:
++ Definition 
 + Function call
 
 
@@ -40,4 +40,4 @@ Arguments: Located within the function- what you want the output to be.\
 Variable: something that varies or changes.\
 Assignment Operator: Assigns a <ins>name</ins> to a _variable._ \
 CamelCase: Starting the assignment of a variable with a lowercase letter and the second word with an uppercase letter, sometimes distringued with an underscore_. \
-Case Sensitive: Python keywords are eclcuded from value assignment. \
+Case Sensitive: Python keywords are eclcuded from value assignment.
