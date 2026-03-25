@@ -28,8 +28,8 @@ Control structures that loops back to repeat a block of codes
 ## VI. Functions
 Designed to be reusable code, performs only one task \
 Types of functions:
-1. Built-in functions: abs(), print(), float(), tuple(), list()
-2. User defined functions \
++ Built-in functions: abs(), print(), float(), tuple(), list()
++ User defined functions \
 Parts of a function:
 + Definition 
 + Function call
