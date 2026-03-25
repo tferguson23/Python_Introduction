@@ -1,4 +1,4 @@
-# <img src="assets/logo.png" width="100"> Python Introduction
+# <img src="assets/logo.png" width="50"> Python Introduction
 
 Python is a general purpose programming language used across all industries. Many well known industries have been developed with the use of Python. It is increasingly popular due to its readability and beginner friendliness; it has overtaken Javascript as the top coding language.
 
