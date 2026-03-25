@@ -1,6 +1,6 @@
 # <img src="assets/logo.png" width="50"> Python Introduction
 
-Python is a general purpose programming language used across all industries. Many well known industries have been developed with the use of Python. It is increasingly popular due to its readability and beginner friendliness; it has overtaken Javascript as the top coding language.
+Python is a general purpose programming language used across all industries. It is increasingly popular due to its readability and beginner friendliness; it has overtaken Javascript as the top coding language.
 
 ## Table of Contents
 - [ Python Introduction](#-python-introduction)
@@ -27,6 +27,7 @@ Control structures that loops back to repeat a block of codes
 
 ## VI. Functions
 Designed to be reusable code, performs only one task \
+
 Types of functions:
   + Built-in functions: abs(), print(), float(), tuple(), list()
   + User defined functions \
