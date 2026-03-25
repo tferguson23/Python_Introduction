@@ -7,8 +7,8 @@ Python is a general purpose programming language used across all industries. Man
   - [Table of Contents](#table-of-contents)
     - [The Computer Recipe:](#the-computer-recipe)
   - [I. Strings](#i-strings)
-  - [Loops](#loops)
-  - [Functions](#functions)
+  - [V. Loops](#v-loops)
+  - [VI. Functions](#vi-functions)
   - [Glossary](#glossary)
 
 ### The Computer Recipe:
@@ -20,24 +20,25 @@ Coding is an interatve process: Code, test, debug.
 ## I. Strings
 
 
-## Loops
+## V. Loops
 Control structures that loops back to repeat a block of codes
++ Nested Loops: Performs loops within another loop. 
 
 
-## Functions
+## VI. Functions
 Designed to be reusable code, performs only one task \
 Types of functions:
-1. Built-in functions: abs(), print(), float(), tuple(), list() \
-2. User defined functions
+1. Built-in functions: abs(), print(), float(), tuple(), list()
+2. User defined functions \
 Parts of a function:
 + Definition 
 + Function call
 
 
 ## Glossary
-Functions: Identified by a close and open parentheses ()\
-Arguments: Located within the function- what you want the output to be.\
-Variable: something that varies or changes.\
-Assignment Operator: Assigns a <ins>name</ins> to a _variable._ \
-CamelCase: Starting the assignment of a variable with a lowercase letter and the second word with an uppercase letter, sometimes distringued with an underscore_. \
-Case Sensitive: Python keywords are eclcuded from value assignment.
+**Functions:** Identified by a close and open parentheses ()\
+**Arguments:** Located within the function- what you want the output to be.\
+**Variable:** something that varies or changes.\
+**Assignment Operator:** Assigns a <ins>name</ins> to a _variable._ \
+**CamelCase:** Starting the assignment of a variable with a lowercase letter and the second word with an uppercase letter, sometimes distringued with an underscore_. \
+**Case Sensitive:** Python keywords are eclcuded from value assignment.
