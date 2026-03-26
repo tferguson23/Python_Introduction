@@ -71,10 +71,10 @@ Stores collections of data. Numerics, sequences, mappings, classes, instances, e
 
 **Lists []:** collection of data which is _ordered_ and _mutable_. Contain a unique index. \
 
-append(): will place a new item right after the current last item. \
-insert(): will insert an item somewhere between other items in the list. \
-del(): deletes items.\
-split(): splits items/text into lists. \
+  + append(): will place a new item right after the current last item. \
+  + insert(): will insert an item somewhere between other items in the list. \
+  + del(): deletes items.\
+  + split(): splits items/text into lists. \
 
 Multidimentional lists: lists within lists. 
 
@@ -86,9 +86,8 @@ Multidimentional lists: lists within lists.
     Key : Value
 
 **{} Set:** collection of data with no index for sequencing, no key value pairs. Cannot store duplicate items.
-
-add(): adds items to a set.
-remove(): removes items from a set. 
+  + add(): adds items to a set.
+  + remove(): removes items from a set. 
 
 ## IV. Data Structures 
 A collection of data of different data types. 
