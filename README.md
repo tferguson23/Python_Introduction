@@ -7,9 +7,11 @@ Python is a general purpose programming language used across all industries. It 
   - [Table of Contents](#table-of-contents)
     - [The Computer Recipe:](#the-computer-recipe)
   - [I. Strings](#i-strings)
-  - [II. Data Types](#ii-data-types)
+  - [II. Indexing](#ii-indexing)
+  - [III. Data Types](#iii-data-types)
     - [Numeric Data Types](#numeric-data-types)
     - [Boolean Data Types](#boolean-data-types)
+  - [IV. Data Structures](#iv-data-structures)
   - [V. Loops](#v-loops)
   - [VI. Functions](#vi-functions)
   - [Glossary](#glossary)
@@ -28,7 +30,29 @@ A sequence of characters.
 
 **Raw Strings:** Preceeds the string literal with an r character to make the code cleaner and easier to read.
 
-## II. Data Types
+**String Manipulation & Typecasting, Built-in Methods**
+  + f string: print(f"Hello World")
+  + Concatenate Text: using a comma within the function. Automatically inserts a space between the two texts. 
+  + Curly Brackets {}: You can concatenate specific variables and text. 
+  + Upper(): converts text to all uppercase. 
+  + count(): gives number of something.
+  + replace(): replaces one text with another by using concatenated text in the function. 
+  + len(): gives the length of requested text.
+  + strip(): removes both ends of text. 
+  + is Methods: returns boolean value.
+  + isalnum(): every character is alphanumeric. 
+  + isalpha(): every character is alphabetic. 
+  + isdigit(): every character is numeric. 
+  + isupper(): every character is uppercase. 
+  + islower(): every character is lowercase. 
+
+## II. Indexing
+Extraction of parts of text. []
+  + Colon: Extracts first character of text from left to right or right to left. 
+    + Slice a string literal by putting starting index followed by colon and then the ending index. 
+  + Use negative or positive integer values to distinguish order of left to right or right to left. 
+
+## III. Data Types
 ### Numeric Data Types
   + Integers: Numbers 0-9, positive or negative, whole numbers only. 
   + Floating Point Numbers: Includes a decimal point. 
@@ -37,7 +61,12 @@ A sequence of characters.
   + True or False values
   + bool(): Built-in function that represents the true/false of any argument passed to it. 
 
-NONE keyword: null value. 
+NONE keyword: null value. \
+NONETYPE: data type of NONE. 
+
+## IV. Data Structures 
+  + Primitive/Basic: 
+  + Complex: 
 
 ## V. Loops
 Control structures that loops back to repeat a block of codes
@@ -65,6 +94,9 @@ Parts of a function:
 **Escape Character:** Backslash character within a string literal interpreted as an escape character. Makes code cleaner and easier to read. Used to insert characters that would otherwise be illegal in a string. \
 **Empty Strings:** Strings that contain empty values. \
 **Raw Strings:** Preceeds the string literal with an r character to make the code cleaner and easier to read. \
+**Typecasting:** Data type conversion; allows you to specify a data type to a variable or to convert a variable from one data type to another. \
+**Lists:** collection of data which is _ordered_ and _mutable_. \
+**Dictionaries:** 
 **Operators:** Perform operations on values.
   + Operand: Variables/values performed on.
   + Expressions: Result in values. Comprised of operators and operands.
