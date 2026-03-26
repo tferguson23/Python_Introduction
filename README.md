@@ -7,10 +7,11 @@ Python is a general purpose programming language used across all industries. It 
   - [Table of Contents](#table-of-contents)
     - [The Computer Recipe:](#the-computer-recipe)
   - [I. Strings](#i-strings)
-  - [II. Indexing](#ii-indexing)
+  - [II. Indexing \[\]](#ii-indexing-)
   - [III. Data Types](#iii-data-types)
     - [Numeric Data Types](#numeric-data-types)
     - [Boolean Data Types](#boolean-data-types)
+    - [Built-in Data Types](#built-in-data-types)
   - [IV. Data Structures](#iv-data-structures)
   - [V. Loops](#v-loops)
   - [VI. Functions](#vi-functions)
@@ -46,16 +47,16 @@ A sequence of characters.
   + isupper(): every character is uppercase. 
   + islower(): every character is lowercase. 
 
-## II. Indexing
-Extraction of parts of text. []
+## II. Indexing []
+Extraction of parts of text.
   + Colon: Extracts first character of text from left to right or right to left. 
     + Slice a string literal by putting starting index followed by colon and then the ending index. 
   + Use negative or positive integer values to distinguish order of left to right or right to left. 
 
 ## III. Data Types
 ### Numeric Data Types
-  + Integers: Numbers 0-9, positive or negative, whole numbers only. 
-  + Floating Point Numbers: Includes a decimal point. 
+  + **Integers:** Numbers 0-9, positive or negative, whole numbers only. 
+  + **Floating Point Numbers:** Includes a decimal point. 
 
 ### Boolean Data Types 
   + True or False values
@@ -64,14 +65,27 @@ Extraction of parts of text. []
 NONE keyword: null value. \
 NONETYPE: data type of NONE. 
 
+### Built-in Data Types
+Stores collections of data. Numerics, sequences, mappings, classes, instances, exceptions. \
+**Lists []:** collection of data which is _ordered_ and _mutable_. Contain a unique index. \
+append(): will place a new item right after the current last item. \
+insert(): will insert an item somewhere between other items in the list. \
+del(): deletes items.\
+split(): splits items/text into lists. \
+Multidimentional lists: lists within lists. \
+
+**Tuples ():** used to store multiple items in a single variable. _Immutable_ and _ordered_.
+
+
 ## IV. Data Structures 
-  + Primitive/Basic: 
-  + Complex: 
+A collection of data of different data types. 
+  + Primitive/Basic: strings, integers, floating-point numbers.
+  + Complex: lists, tuples, dictionaries, sets. 
 
 ## V. Loops
 Control structures that loops back to repeat a block of codes
-+ Nested Loops: Performs loops within another loop. 
-+ While Loops: KEYWORD while followed by a condition. Once the condition becomes FALSE, the loop will end. 
++ **Nested Loops:** Performs loops within another loop. 
++ **While Loops:** KEYWORD while followed by a condition. Once the condition becomes FALSE, the loop will end. 
 
 ## VI. Functions
 Designed to be reusable code, performs only one task.
@@ -95,8 +109,11 @@ Parts of a function:
 **Empty Strings:** Strings that contain empty values. \
 **Raw Strings:** Preceeds the string literal with an r character to make the code cleaner and easier to read. \
 **Typecasting:** Data type conversion; allows you to specify a data type to a variable or to convert a variable from one data type to another. \
+**Integers:** Numbers 0-9, positive or negative, whole numbers only. \
+**Floating Point Numbers:** Includes a decimal point. \
 **Lists:** collection of data which is _ordered_ and _mutable_. \
-**Dictionaries:** 
+**Tuples:** ordered collection of data that is immutable, faster than a list, unique index. \
+**Dictionaries:** ordered collections of data, key value pair association, unique key.\
 **Operators:** Perform operations on values.
   + Operand: Variables/values performed on.
   + Expressions: Result in values. Comprised of operators and operands.
