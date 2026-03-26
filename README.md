@@ -108,9 +108,9 @@ A collection of data of different data types.
     + "is" 
     + "is not"
 
-  Group: two or more operators represent a group.
+  **Group:** two or more operators represent a group.
 
-  Conditionals: change flow of execution of program.
+  **Conditionals:** change flow of execution of program.
   + sequential execution: code performed one after another
   + if then else decisions
   + looping back
@@ -126,11 +126,11 @@ Control structures that loops back to repeat a block of codes
 ## VII. Functions
 Designed to be reusable code, performs only one task.
 
-Types of functions:
+**Types of functions:**
   + Built-in functions: abs(), print(), float(), tuple(), list()
   + User defined functions
   
-Parts of a function:
+**Parts of a function:**
   + Definition 
   + Function call
 
@@ -154,3 +154,4 @@ Parts of a function:
 **Set:** collection of data with no index for sequencing, no key value pairs. Cannot store duplicate items.\
 **Data Structures:** A collection of data of different data types. \
 **Operators:** Perform operations on values.
+**Loops:** 
