@@ -99,6 +99,19 @@ A collection of data of different data types.
   + Operand: Variables/values performed on.
   + Expressions: Result in values. Comprised of operators and operands.
   + Assignmnet operators: Assign values to variables. 
+  + Compound operators: any arithmetic operator before =
+  + Comparison/Relational operator: returns a boolean.
+    +  <, >, >=, <=, ==, !=
+  + Identity operator: is of certain class or data type.
+    + "is" 
+    + "is not"
+
+  Group: two or more operators represent a group.\
+
+  Conditionals: change flow of execution of program. 
+    + sequential execution: code performed one after another
+    + if then else decisions
+    + looping back
 
 ## VI. Loops
 Control structures that loops back to repeat a block of codes
@@ -133,4 +146,6 @@ Parts of a function:
 **Lists:** collection of data which is _ordered_ and _mutable_. \
 **Tuples:** ordered collection of data that is immutable, faster than a list, unique index. \
 **Dictionaries:** ordered collections of data, key value pair association, unique key.\
+**Set:** collection of data with no index for sequencing, no key value pairs. Cannot store duplicate items.\
+**Data Structures:** A collection of data of different data types. \
 **Operators:** Perform operations on values.
