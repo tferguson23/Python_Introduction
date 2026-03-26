@@ -109,10 +109,10 @@ A collection of data of different data types.
 
   Group: two or more operators represent a group.
 
-  Conditionals: change flow of execution of program. 
-    + sequential execution: code performed one after another
-    + if then else decisions
-    + looping back
+  Conditionals: change flow of execution of program.
+  + sequential execution: code performed one after another
+  + if then else decisions
+  + looping back
 
 ## VI. Loops
 Control structures that loops back to repeat a block of codes
