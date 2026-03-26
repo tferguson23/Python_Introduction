@@ -13,8 +13,9 @@ Python is a general purpose programming language used across all industries. It 
     - [Boolean Data Types](#boolean-data-types)
     - [Built-in Data Types](#built-in-data-types)
   - [IV. Data Structures](#iv-data-structures)
-  - [V. Loops](#v-loops)
-  - [VI. Functions](#vi-functions)
+  - [V. Operators](#v-operators)
+  - [VI. Loops](#vi-loops)
+  - [VII. Functions](#vii-functions)
   - [Glossary](#glossary)
 
 ### The Computer Recipe:
@@ -69,31 +70,49 @@ NONETYPE: data type of NONE.
 Stores collections of data. Numerics, sequences, mappings, classes, instances, exceptions. \
 
 **Lists []:** collection of data which is _ordered_ and _mutable_. Contain a unique index. \
+
 append(): will place a new item right after the current last item. \
 insert(): will insert an item somewhere between other items in the list. \
 del(): deletes items.\
 split(): splits items/text into lists. \
+
 Multidimentional lists: lists within lists. 
 
 **Tuples ():** used to store multiple items in a single variable. _Immutable_ and _ordered_.
 
+**Dictionaries {}:** ordered collection of data, key value pair association, unique key.
+  + Key: unique and immutable.
+  + Value: duplicates allowed to be mutable. 
+    Key : Value
+
+**{} Set:** collection of data with no index for sequencing, no key value pairs. Cannot store duplicate items.
+
+add(): adds items to a set.
+remove(): removes items from a set. 
 
 ## IV. Data Structures 
 A collection of data of different data types. 
   + Primitive/Basic: strings, integers, floating-point numbers.
   + Complex: lists, tuples, dictionaries, sets. 
 
-## V. Loops
+
+## V. Operators
+  + Operand: Variables/values performed on.
+  + Expressions: Result in values. Comprised of operators and operands.
+  + Assignmnet operators: Assign values to variables. 
+
+## VI. Loops
 Control structures that loops back to repeat a block of codes
 + **Nested Loops:** Performs loops within another loop. 
 + **While Loops:** KEYWORD while followed by a condition. Once the condition becomes FALSE, the loop will end. 
 
-## VI. Functions
+## VII. Functions
 Designed to be reusable code, performs only one task.
 
 Types of functions:
   + Built-in functions: abs(), print(), float(), tuple(), list()
   + User defined functions \
+  
 Parts of a function:
     + Definition 
     + Function call
@@ -116,6 +135,3 @@ Parts of a function:
 **Tuples:** ordered collection of data that is immutable, faster than a list, unique index. \
 **Dictionaries:** ordered collections of data, key value pair association, unique key.\
 **Operators:** Perform operations on values.
-  + Operand: Variables/values performed on.
-  + Expressions: Result in values. Comprised of operators and operands.
-  + Assignmnet operators: Assign values to variables. 
