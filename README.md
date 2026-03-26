@@ -80,10 +80,11 @@ Multidimentional lists: lists within lists.
 
 **Tuples ():** used to store multiple items in a single variable. _Immutable_ and _ordered_.
 
-**Dictionaries {}:** ordered collection of data, key value pair association, unique key.
+**Dictionaries {}:** ordered collection of data, key value pair association, unique key.\
+
+Key : Value
   + Key: unique and immutable.
-  + Value: duplicates allowed to be mutable. 
-    Key : Value
+  + Value: duplicates allowed to be mutable.
 
 **{} Set:** collection of data with no index for sequencing, no key value pairs. Cannot store duplicate items.
   + add(): adds items to a set.
@@ -106,7 +107,7 @@ A collection of data of different data types.
     + "is" 
     + "is not"
 
-  Group: two or more operators represent a group.\
+  Group: two or more operators represent a group.
 
   Conditionals: change flow of execution of program. 
     + sequential execution: code performed one after another
