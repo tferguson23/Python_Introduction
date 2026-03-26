@@ -80,7 +80,7 @@ Multidimentional lists: lists within lists.
 
 **Tuples ():** used to store multiple items in a single variable. _Immutable_ and _ordered_.
 
-**Dictionaries {}:** ordered collection of data, key value pair association, unique key.\
+**Dictionaries {}:** ordered collection of data, key value pair association, unique key.
 
 Key : Value
   + Key: unique and immutable.
@@ -117,12 +117,12 @@ A collection of data of different data types.
 
   **General Conditional Structure:** 
   ```
-    if<condition>:\
-      <code to be executed if condition is true>\
-      <code ....>\
-      ...\
-    else :\
-      <code to be executed if condition is false>\
+    if<condition>:
+      <code to be executed if condition is true>
+      <code ....>
+      ...
+    else :
+      <code to be executed if condition is false>
       ...
   ```
   **elif statement:** allows you to check multiple expressions for TRUE and execute a block of code as soon as one of the conditions avluates to TRUE. "If previous conditions were not true, then try this condition."
@@ -132,7 +132,7 @@ A collection of data of different data types.
 
 ## VI. Loops
 Control structures that loops back to repeat a block of codes. Once a condition is false, the loop will end. \
-If statements can exist within a loop.\
+If statements can exist within a loop.
 + **Nested Loops:** Performs loops within another loop. 
 + **While Loops:** KEYWORD while followed by a condition. Once the condition becomes FALSE, the loop will end. 
 
@@ -167,4 +167,4 @@ Designed to be reusable code, performs only one task.
 **Set:** collection of data with no index for sequencing, no key value pairs. Cannot store duplicate items.\
 **Data Structures:** A collection of data of different data types. \
 **Operators:** Perform operations on values.\
-**Loops:** Control structures that loops back to repeat a block of codes.\
+**Loops:** Control structures that loops back to repeat a block of codes.
