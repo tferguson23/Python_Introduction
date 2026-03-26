@@ -67,12 +67,13 @@ NONETYPE: data type of NONE.
 
 ### Built-in Data Types
 Stores collections of data. Numerics, sequences, mappings, classes, instances, exceptions. \
+
 **Lists []:** collection of data which is _ordered_ and _mutable_. Contain a unique index. \
 append(): will place a new item right after the current last item. \
 insert(): will insert an item somewhere between other items in the list. \
 del(): deletes items.\
 split(): splits items/text into lists. \
-Multidimentional lists: lists within lists. \
+Multidimentional lists: lists within lists. 
 
 **Tuples ():** used to store multiple items in a single variable. _Immutable_ and _ordered_.
 
@@ -94,8 +95,8 @@ Types of functions:
   + Built-in functions: abs(), print(), float(), tuple(), list()
   + User defined functions \
 Parts of a function:
-  + Definition 
-  + Function call
+    + Definition 
+    + Function call
 
 
 ## Glossary
