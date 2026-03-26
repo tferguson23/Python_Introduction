@@ -103,7 +103,8 @@ A collection of data of different data types.
   + Compound operators: any arithmetic operator before =
   + Comparison/Relational operator: returns a boolean.
     +  <, >, >=, <=, ==, !=
-  + Identity operator: is of certain class or data type.
+  + Logical operator: consists of mu;tiple relational operations. Returns boolean. 
+  + Identity operator: is of certain class or data type. Returns boolean. 
     + "is" 
     + "is not"
 
@@ -113,6 +114,9 @@ A collection of data of different data types.
   + sequential execution: code performed one after another
   + if then else decisions
   + looping back
+
+> [!CAUTION]
+> Pay attention to indent placement in conditionals. 
 
 ## VI. Loops
 Control structures that loops back to repeat a block of codes
