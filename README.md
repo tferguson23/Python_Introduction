@@ -7,6 +7,7 @@ Python is a general purpose programming language used across all industries. It 
   - [Table of Contents](#table-of-contents)
     - [The Computer Recipe:](#the-computer-recipe)
   - [I. Strings](#i-strings)
+  - [II. Numeric Data Types](#ii-numeric-data-types)
   - [V. Loops](#v-loops)
   - [VI. Functions](#vi-functions)
   - [Glossary](#glossary)
@@ -18,12 +19,22 @@ The computer has two states: On and Off. Binary code represents the two modes.\
 Coding is an interatve process: Code, test, debug.
 
 ## I. Strings
+A sequence of characters.
+  + Can include alphanumerics and special characters. 
+  + Enclose with open and close quotation marks.
+  + Strings with empty values can be represented by two quotation marks. " "
+
+**Raw Strings:** Preceeds the string literal with an r character to make the code cleaner and easier to read.
+
+## II. Numeric Data Types
+  + Integers: Numbers 0-9, positive or negative, whole numbers only. 
+  + Floating Point Numbers: Includes a decimal point. 
 
 
 ## V. Loops
 Control structures that loops back to repeat a block of codes
 + Nested Loops: Performs loops within another loop. 
-
++ While Loops: KEYWORD while followed by a condition. Once the condition becomes FALSE, the loop will end. 
 
 ## VI. Functions
 Designed to be reusable code, performs only one task \
@@ -43,3 +54,10 @@ Parts of a function:
 **Assignment Operator:** Assigns a <ins>name</ins> to a _variable._ \
 **CamelCase:** Starting the assignment of a variable with a lowercase letter and the second word with an uppercase letter, sometimes distringued with an underscore_. \
 **Case Sensitive:** Python keywords are eclcuded from value assignment.
+**Escape Character:** Backslash character within a string literal interpreted as an escape character. Makes code cleaner and easier to read. Used to insert characters that would otherwise be illegal in a string. \
+**Empty Strings:** Strings that contain empty values. \
+**Raw Strings:** Preceeds the string literal with an r character to make the code cleaner and easier to read. \
+**Operators:** Perform operations on values. \
+  + Operand: Variables/values performed on.
+  + Expressions: Result in values. Comprised of operators and operands.
+  + Assignmnet operators: Assign values to variables. 
