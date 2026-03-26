@@ -115,11 +115,24 @@ A collection of data of different data types.
   + if then else decisions
   + looping back
 
+  **General Conditional Structure:** 
+  ```
+    if<condition>:\
+      <code to be executed if condition is true>\
+      <code ....>\
+      ...\
+    else :\
+      <code to be executed if condition is false>\
+      ...
+  ```
+  **elif statement:** allows you to check multiple expressions for TRUE and execute a block of code as soon as one of the conditions avluates to TRUE. "If previous conditions were not true, then try this condition."
+
 > [!CAUTION]
 > Pay attention to indent placement in conditionals. 
 
 ## VI. Loops
-Control structures that loops back to repeat a block of codes
+Control structures that loops back to repeat a block of codes. Once a condition is false, the loop will end. \
+If statements can exist within a loop.\
 + **Nested Loops:** Performs loops within another loop. 
 + **While Loops:** KEYWORD while followed by a condition. Once the condition becomes FALSE, the loop will end. 
 
@@ -153,5 +166,5 @@ Designed to be reusable code, performs only one task.
 **Dictionaries:** ordered collections of data, key value pair association, unique key.\
 **Set:** collection of data with no index for sequencing, no key value pairs. Cannot store duplicate items.\
 **Data Structures:** A collection of data of different data types. \
-**Operators:** Perform operations on values.
-**Loops:** 
+**Operators:** Perform operations on values.\
+**Loops:** Control structures that loops back to repeat a block of codes.\
