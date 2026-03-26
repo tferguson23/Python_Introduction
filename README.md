@@ -8,8 +8,8 @@ Python is a general purpose programming language used across all industries. It 
     - [The Computer Recipe:](#the-computer-recipe)
   - [I. Strings](#i-strings)
   - [II. Data Types](#ii-data-types)
-- [Numeric Data Types](#numeric-data-types)
-- [Boolean Data Types](#boolean-data-types)
+    - [Numeric Data Types](#numeric-data-types)
+    - [Boolean Data Types](#boolean-data-types)
   - [V. Loops](#v-loops)
   - [VI. Functions](#vi-functions)
   - [Glossary](#glossary)
@@ -29,11 +29,11 @@ A sequence of characters.
 **Raw Strings:** Preceeds the string literal with an r character to make the code cleaner and easier to read.
 
 ## II. Data Types
-# Numeric Data Types
+### Numeric Data Types
   + Integers: Numbers 0-9, positive or negative, whole numbers only. 
   + Floating Point Numbers: Includes a decimal point. 
 
-# Boolean Data Types 
+### Boolean Data Types 
   + True or False values
   + bool(): Built-in function that represents the true/false of any argument passed to it. 
 
